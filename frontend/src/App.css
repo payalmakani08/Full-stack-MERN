@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    background-color: #f4f6fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+.main-nav {
+    background-color: #284b8f;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(120deg, #4568dc, #75a7e8);
+    color: white;
+    padding: 70px 15px;
+}
+
+.hero h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 17px;
+}
+
+/* Summary cards */
+.summary-card {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.summary-card h3 {
+    color: #3159a1;
+    font-size: 30px;
+}
+
+/* Form */
+.form-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.form-control {
+    padding: 11px;
+}
+
+/* Task Cards */
+.task-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    height: 100%;
+}
+
+.task-card h5 {
+    color: #284b8f;
+}
+
+.task-card p {
+    margin-top: 12px;
+    color: #666;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray !important;
+}
+
+/* About */
+.about-section {
+    background-color: #e5edf9;
+}
+
+.about-section p {
+    max-width: 650px;
+    margin: 15px auto;
+    line-height: 1.7;
+}
+
+/* Footer */
+.footer {
+    background-color: #284b8f;
+    color: white;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 5px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .form-card {
+        padding: 18px;
+    }
+}
